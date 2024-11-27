@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denuncia</title>
+    <link rel="stylesheet" href="denuncia.css">
+</head>
+<body>
+    <img class="imagen" src="../iconos/Captura_de_pantalla_2024-11-22_133632-removebg-preview (1).png" width="35" height="35">
+    <div class="contenedor">
+        <form action="" method="post">
+            <label for="nombre">Nombre:</label>
+            <input class="placeholder" type="text" id="nombre" name="nombre" placeholder="Introduce el nombre del agresor" required><br>
+
+            <label for="apellidos">Apellidos:</label>
+            <input class="placeholder" type="text" id="apellidos" name="apellidos" placeholder="Introduce los apellidos del agresor" required><br>
+
+            <label for="dni">DNI de víctima:</label>
+            <input class="placeholder" type="text" id="dni" name="dni" placeholder="Introduce el DNI de la víctima" required><br>
+
+            <label for="relacion">Relación entre agresor-víctima:</label>
+            <input  class="placeholder" type="text" id="relacion" name="relacion" placeholder="Introduce la relación entre la víctima y el agresor" required><br>
+            <div class="fechayhora">
+                <div>
+                    <label for="fecha">Fecha:</label>
+                    <input class="placeholder" type="date" id="fecha" name="fecha" required><br>
+                </div>
+                <div>
+                    <label for="hora">Hora (opcional):</label>
+                    <input class="placeholder" type="time" id="hora" name="hora"><br>
+                </div>
+            </div>
+            <label for="motivo">Motivo de la denuncia:</label>
+            <textarea class="placeholder" id="motivo" name="motivo" placeholder="Introduce el motivo de la denuncia. Este se enviará a las autoridades que evaluarán el caso" required></textarea>
+            <button type="submit" class="alert" >ENVIAR</button>
+        </form>
+    </div>
+</body>
+</html>
