@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mano Amiga</title>
+    <link rel="stylesheet" href="ejemplo_styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="icons">
+                <img onclick="window.location.href='../index.html'" src="../iconos/casa-silueta-negra-sin-puerta.png" alt="Home" class="icon">
+                <img src="../iconos/menu.png" alt="Search" class="icon">
+            </div>
+
+            <div class="barra-busqueda">
+                <label for="buscador"></label>
+                <select id="buscador" onchange="window.location.href=this.value;">
+                    <option value="#">Selecciona una opción</option>
+                    <option value="#noticias">Noticias</option>
+                    <option value="#manifestaciones">Manifestaciones</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="support">
+            <span>Apoyo</span>
+            <div class="icons">
+                <img src="../iconos/hora.png" alt="Search" class="icon">
+            </div>
+        </div>
+    </header>
+
+    <!-- Barra de búsqueda -->
+
+
+    <main>
+        <!-- Noticias -->
+        <section id="noticias" class="noticias">
+            <h1>NOTICIAS</h1>
+            <div class="noticia-principal">
+                <img src="../img_noticias/Captura de pantalla 2024-11-19 115420.png" alt="Noticia principal">
+                <h2 style="font-size: 25px; font-weight: 600; text-align: center;">Condenado a prisión por descuartizar a su expareja y tirar los restos al mar</h2>
+            </div>
+            <div class="noticias-secundarias">
+                <div class="noticia">
+                    <img src="../img_noticias/Captura de pantalla 2024-11-19 121338.png" alt="Noticia 1">
+                    <p style="font-size: 20px; font-weight: 600; text-align: center;">El menor apuñalado por su padre en Barcelona intentando proteger a su madre y a su hermana</p>
+                </div>
+                <div class="noticia">
+                    <img src="../img_noticias/Captura de pantalla 2024-11-19 121430.png" alt="Noticia 2">
+                    <p style="font-size: 20px; font-weight: 600; text-align: center;">El gesto con la mano que salva vidas a víctimas de violencia machista</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Manifestaciones -->
+        <h1 class="manifestaciones_h1">MANIFESTACIONES</h1>
+        <section id="manifestaciones" class="manifestaciones">
+           
+            <div class="manifestacion-principal">
+                <video
+                    src="../img_noticias/saveinsta.cc_480p-masivas-manifestaciones-de-mujeres-en-madrid-en-contra-de-la-violencia-y-la-discriminacion.mp4"
+                    alt="Manifestación" controls></video>
+                <p class="parra" style="font-size: 25px; font-weight: 600; text-align: center;">
+                    Los colectivos de mujeres salieron a las calles de Madrid para manifestar por diversas causas:
+                    Desigualdad salarial, discriminación de género, visibilización de mujeres con discapacidad,
+                    abolición de la prostitución y el fin de la violencia contra las mujeres fueron algunas de
+                    las reivindicaciones de la manifestación.
+                 </p>
+            </div>
+            <div class="manifestacion-principal">
+                <video
+                    src="../img_noticias/saveinsta.cc_480p-25n-mas-de-40-marchas-piden-erradicar-la-violencia-contra-las-mujeres-en-toda-espana-rtve.mp4"
+                    alt="Manifestación" controls></video>
+                <p class="parra" style="font-size: 25px; font-weight: 600; text-align: center;" >
+                    Cada diez minutos una mujer es asesinada por su pareja o algún familiar, según un informe de la ONU.
+                    Son datos del último informe elaborado por ONU Mujeres y la Oficina de las Naciones Unidas contra la Droga y el Delito (UNODC), publicado con motivo del Día Internacional para la Eliminación de la Violencia contra las Mujeres, que recoge que, del total de los 85.000 feminicidios registrados en 2023, un 60% fueron cometidos por sus parejas u otros miembros de la familia de las víctimas.
+                  
+                    
+                    
+                 </p>
+            </div>
+        </section>
+
+        <!-- Descripción -->
+        <section id="descripcion" class="descripcion">
+            
+        </section>
+    </main>
+
+    <footer>
+        <div class="contacto">
+
+            <p>manomiga@gmail.com</p>
+        </div>
+        <div class="logo">
+            <img src="../iconos/Captura_de_pantalla_2024-11-22_133632-removebg-preview (1).png" alt="">
+        </div>
+        <div class="redes-sociales">
+            <img src="../iconos/facebook-icon-free-png.webp" alt="Facebook">
+            <img src="../iconos/07f0d7b69ef071571e4ada2f4d6a053a-icono-de-instagram-colorido.webp" alt="Instagram">
+        </div>
+    </footer>
+</body>
+
+</html>
