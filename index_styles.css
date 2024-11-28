@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    margin: 0;
+    background-image: url(img_fondo/dark-purple-background-tk8kthqbwuu0elmq_Nero\ AI_Photo_Face.jpeg);
+    /* Fondo oscuro */
+    color: rgb(235, 235, 235);
+    overflow: hidden;
+    
+}
+.interro{
+    width: 30px;
+    margin-left: 250px;
+}
+.lcontainer{
+    width: 220px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.logo{
+    width: 220px;
+    height: 200px;
+}
+.container{
+    
+    margin: auto;
+    width: 400px;
+    text-align: center;
+}
+.bloque_1, .bloque_2, .bloque_3{
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+.denuncia, .apoyo, .mapa, .donacion, .sos, .info{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 20px;
+    border-radius: 20px;
+    width: 200px;
+    margin: 10px;
+    padding: auto;
+}
+
+.denuncia{
+    background-color: blueviolet;
+}
+
+.apoyo{
+    background-color: rgb(194, 187, 88);
+}
+
+.mapa{
+    background-color: rgb(78, 158, 131);
+}
+
+.donacion{
+    background-color: chocolate;
+}
+.sos{
+    background-color:brown;
+}
+
+.sos img, .info img{
+    width: 40px;
+}
+
+.info{
+    background-color: darkgreen;
+}
